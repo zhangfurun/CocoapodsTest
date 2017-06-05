@@ -16,6 +16,7 @@
 		15E91B261EE5403900195498 /* CocoapodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B251EE5403900195498 /* CocoapodsTestTests.m */; };
 		15E91B311EE5403900195498 /* CocoapodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B301EE5403900195498 /* CocoapodsTestUITests.m */; };
 		15E91B411EE5417500195498 /* NSFileManager+TTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */; };
+		15E91B451EE54C0600195498 /* NSBundle+TTBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B441EE54C0600195498 /* NSBundle+TTBundle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		15E91B321EE5403900195498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E91B3F1EE5417500195498 /* NSFileManager+TTFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TTFileManager.h"; sourceTree = "<group>"; };
 		15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TTFileManager.m"; sourceTree = "<group>"; };
+		15E91B431EE54C0600195498 /* NSBundle+TTBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TTBundle.h"; sourceTree = "<group>"; };
+		15E91B441EE54C0600195498 /* NSBundle+TTBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TTBundle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +150,20 @@
 		15E91B3E1EE5413500195498 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				15E91B421EE54C0600195498 /* Category */,
 				15E91B3F1EE5417500195498 /* NSFileManager+TTFileManager.h */,
 				15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		15E91B421EE54C0600195498 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				15E91B431EE54C0600195498 /* NSBundle+TTBundle.h */,
+				15E91B441EE54C0600195498 /* NSBundle+TTBundle.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E91B451EE54C0600195498 /* NSBundle+TTBundle.m in Sources */,
 				15E91B131EE5403900195498 /* ViewController.m in Sources */,
 				15E91B101EE5403900195498 /* AppDelegate.m in Sources */,
 				15E91B411EE5417500195498 /* NSFileManager+TTFileManager.m in Sources */,
