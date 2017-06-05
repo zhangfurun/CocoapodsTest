@@ -15,6 +15,7 @@
 		15E91B1B1EE5403900195498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E91B191EE5403900195498 /* LaunchScreen.storyboard */; };
 		15E91B261EE5403900195498 /* CocoapodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B251EE5403900195498 /* CocoapodsTestTests.m */; };
 		15E91B311EE5403900195498 /* CocoapodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B301EE5403900195498 /* CocoapodsTestUITests.m */; };
+		15E91B411EE5417500195498 /* NSFileManager+TTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		15E91B2C1EE5403900195498 /* CocoapodsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoapodsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E91B301EE5403900195498 /* CocoapodsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoapodsTestUITests.m; sourceTree = "<group>"; };
 		15E91B321EE5403900195498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E91B3F1EE5417500195498 /* NSFileManager+TTFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TTFileManager.h"; sourceTree = "<group>"; };
+		15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TTFileManager.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		15E91B0A1EE5403900195498 /* CocoapodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				15E91B3E1EE5413500195498 /* Classes */,
 				15E91B0E1EE5403900195498 /* AppDelegate.h */,
 				15E91B0F1EE5403900195498 /* AppDelegate.m */,
 				15E91B111EE5403900195498 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				15E91B321EE5403900195498 /* Info.plist */,
 			);
 			path = CocoapodsTestUITests;
+			sourceTree = "<group>";
+		};
+		15E91B3E1EE5413500195498 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15E91B3F1EE5417500195498 /* NSFileManager+TTFileManager.h */,
+				15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				15E91B131EE5403900195498 /* ViewController.m in Sources */,
 				15E91B101EE5403900195498 /* AppDelegate.m in Sources */,
+				15E91B411EE5417500195498 /* NSFileManager+TTFileManager.m in Sources */,
 				15E91B0D1EE5403900195498 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +523,7 @@
 				15E91B371EE5403900195498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E91B381EE5403900195498 /* Build configuration list for PBXNativeTarget "CocoapodsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +532,7 @@
 				15E91B3A1EE5403900195498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E91B3B1EE5403900195498 /* Build configuration list for PBXNativeTarget "CocoapodsTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +541,7 @@
 				15E91B3D1EE5403900195498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
