@@ -18,13 +18,13 @@ s.platform     = :ios, '7.0'
 
 s.source       = { :git => 'https://github.com/zhangfurun/CocoapodsTest.git', :tag => s.version }
 
-s.source_files  = 'CocoapodsTest/Classes/**/*'
+s.source_files  = 'CocoapodsTest/Classes/**/*','CocoapodsTest/Classes/SMS_SDK/*'
 
 s.libraries = 'z','icucore','stdc++','c++'
 
 s.frameworks = 'CFNetwork','Foundation','UIKit','MessageUI','JavaScriptCore'
 
-s.ios.vendored_frameworks = 'CocoapodsTest/Classes/SMS_SDK/*.{framework}'
+s.vendored_framework = 'CocoapodsTest/Classes/SMS_SDK/*.{framework}'
 #,'CocoapodsTest/Classes/SMS_SDK/MOBFoundation.framework','CocoapodsTest/Classes/SMS_SDK/MOBFoundationEx.framework'
 s.requires_arc = true
 
