@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156553001EE64B9F004DA80E /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156552FD1EE64B9F004DA80E /* MOBFoundation.framework */; };
+		156553011EE64B9F004DA80E /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156552FE1EE64B9F004DA80E /* MOBFoundationEx.framework */; };
+		156553021EE64B9F004DA80E /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156552FF1EE64B9F004DA80E /* SMS_SDK.framework */; };
 		15E91B0D1EE5403900195498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B0C1EE5403900195498 /* main.m */; };
 		15E91B101EE5403900195498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B0F1EE5403900195498 /* AppDelegate.m */; };
 		15E91B131EE5403900195498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B121EE5403900195498 /* ViewController.m */; };
@@ -18,9 +21,6 @@
 		15E91B411EE5417500195498 /* NSFileManager+TTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */; };
 		15E91B451EE54C0600195498 /* NSBundle+TTBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B441EE54C0600195498 /* NSBundle+TTBundle.m */; };
 		15E91B4A1EE5541500195498 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E91B491EE5541500195498 /* CoreText.framework */; };
-		15E923F41EE5A35E00195498 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E923F11EE5A35E00195498 /* MOBFoundation.framework */; };
-		15E923F51EE5A35E00195498 /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E923F21EE5A35E00195498 /* MOBFoundationEx.framework */; };
-		15E923F61EE5A35E00195498 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E923F31EE5A35E00195498 /* SMS_SDK.framework */; };
 		15E923F81EE5A37500195498 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E923F71EE5A37500195498 /* libz.tbd */; };
 		15E923FA1EE5A37C00195498 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E923F91EE5A37C00195498 /* libicucore.tbd */; };
 		15E923FC1EE5A38400195498 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E923FB1EE5A38400195498 /* MessageUI.framework */; };
@@ -46,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		156552FD1EE64B9F004DA80E /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		156552FE1EE64B9F004DA80E /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		156552FF1EE64B9F004DA80E /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
 		15E91B081EE5403900195498 /* CocoapodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E91B0C1EE5403900195498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15E91B0E1EE5403900195498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,9 +70,6 @@
 		15E91B431EE54C0600195498 /* NSBundle+TTBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TTBundle.h"; sourceTree = "<group>"; };
 		15E91B441EE54C0600195498 /* NSBundle+TTBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TTBundle.m"; sourceTree = "<group>"; };
 		15E91B491EE5541500195498 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		15E923F11EE5A35E00195498 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
-		15E923F21EE5A35E00195498 /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
-		15E923F31EE5A35E00195498 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
 		15E923F71EE5A37500195498 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		15E923F91EE5A37C00195498 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		15E923FB1EE5A38400195498 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -85,12 +85,12 @@
 				15E924001EE5A39300195498 /* libstdc++.tbd in Frameworks */,
 				15E923FE1EE5A38900195498 /* JavaScriptCore.framework in Frameworks */,
 				15E923FC1EE5A38400195498 /* MessageUI.framework in Frameworks */,
+				156553021EE64B9F004DA80E /* SMS_SDK.framework in Frameworks */,
 				15E923FA1EE5A37C00195498 /* libicucore.tbd in Frameworks */,
 				15E923F81EE5A37500195498 /* libz.tbd in Frameworks */,
-				15E923F41EE5A35E00195498 /* MOBFoundation.framework in Frameworks */,
-				15E923F61EE5A35E00195498 /* SMS_SDK.framework in Frameworks */,
 				15E91B4A1EE5541500195498 /* CoreText.framework in Frameworks */,
-				15E923F51EE5A35E00195498 /* MOBFoundationEx.framework in Frameworks */,
+				156553001EE64B9F004DA80E /* MOBFoundation.framework in Frameworks */,
+				156553011EE64B9F004DA80E /* MOBFoundationEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,9 +111,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		156552FC1EE64B9F004DA80E /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				156552FD1EE64B9F004DA80E /* MOBFoundation.framework */,
+				156552FE1EE64B9F004DA80E /* MOBFoundationEx.framework */,
+				156552FF1EE64B9F004DA80E /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
 		15E91AFF1EE5403900195498 = {
 			isa = PBXGroup;
 			children = (
+				156552FC1EE64B9F004DA80E /* SMS_SDK */,
 				15E91B0A1EE5403900195498 /* CocoapodsTest */,
 				15E91B241EE5403900195498 /* CocoapodsTestTests */,
 				15E91B2F1EE5403900195498 /* CocoapodsTestUITests */,
@@ -178,7 +189,6 @@
 		15E91B3E1EE5413500195498 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				15E923F01EE5A35E00195498 /* SMS_SDK */,
 				15E91B421EE54C0600195498 /* Category */,
 				15E91B3F1EE5417500195498 /* NSFileManager+TTFileManager.h */,
 				15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */,
@@ -206,16 +216,6 @@
 				15E91B491EE5541500195498 /* CoreText.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		15E923F01EE5A35E00195498 /* SMS_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				15E923F11EE5A35E00195498 /* MOBFoundation.framework */,
-				15E923F21EE5A35E00195498 /* MOBFoundationEx.framework */,
-				15E923F31EE5A35E00195498 /* SMS_SDK.framework */,
-			);
-			path = SMS_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,8 +509,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CocoapodsTest/Classes/SMS_SDK",
+					"$(PROJECT_DIR)/SMS_SDK",
 				);
 				INFOPLIST_FILE = CocoapodsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.CocoapodsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,8 +526,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CocoapodsTest/Classes/SMS_SDK",
+					"$(PROJECT_DIR)/SMS_SDK",
 				);
 				INFOPLIST_FILE = CocoapodsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangfurun.CocoapodsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
