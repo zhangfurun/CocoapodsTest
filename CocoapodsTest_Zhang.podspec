@@ -1,31 +1,32 @@
 
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
-s.name         = 'CocoapodsTest_Zhang'
-s.version      = '1.0.3'
-s.summary      = 'Test File'
+spec.name         = 'CocoapodsTest_Zhang'
+spec.version      = '1.0.3'
+spec.summary      = 'Test File'
 
-s.description  = <<-DESC
+spec.description  = <<-DESC
 Testing TTFrameWork
 DESC
 
-s.homepage     = 'https://github.com/zhangfurun/CocoapodsTest'
+spec.homepage     = 'https://github.com/zhangfurun/CocoapodsTest'
 
-s.license      = 'MIT'
+spec.license      = 'MIT'
 
-s.author       = { 'zhangfurun' => '122674287@qq.com' }
-s.platform     = :ios, '7.0'
+spec.author       = { 'zhangfurun' => '122674287@qq.com' }
+spec.platform     = :ios, '7.0'
 
-s.source       = { :git => 'https://github.com/zhangfurun/CocoapodsTest.git', :tag => s.version }
+spec.source       = { :git => 'https://github.com/zhangfurun/CocoapodsTest.git', :tag => spec.version }
 
-s.source_files  = 'CocoapodsTest/Classes/**/*','CocoapodsTest/Classes/SMS_SDK/*'
+spec.source_files  = 'CocoapodsTest/Classes/**/*'
 
-s.libraries = 'z','icucore','stdc++','c++'
+spec.libraries = 'z','icucore','stdc++','c++'
 
-s.frameworks = 'CFNetwork','Foundation','UIKit','MessageUI','JavaScriptCore'
+spec.frameworks = 'CFNetwork','Foundation','UIKit','MessageUI','JavaScriptCore'
 
-s.vendored_framework = 'CocoapodsTest/Classes/SMS_SDK/*.{framework}'
-#,'CocoapodsTest/Classes/SMS_SDK/MOBFoundation.framework','CocoapodsTest/Classes/SMS_SDK/MOBFoundationEx.framework'
-s.requires_arc = true
+#spec.vendored_frameworks = 'SMS_SDK.framework','MOBFoundation.framework','MOBFoundationEx.framework'
+spec.ios.vendored_frameworks = 'Frameworks/SMS_SDK.framework'
+
+spec.requires_arc = true
 
 end

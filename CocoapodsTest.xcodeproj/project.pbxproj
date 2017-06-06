@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1565530E1EE64E9E004DA80E /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565530B1EE64E9E004DA80E /* MOBFoundation.framework */; };
-		1565530F1EE64E9E004DA80E /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565530C1EE64E9E004DA80E /* MOBFoundationEx.framework */; };
-		156553101EE64E9E004DA80E /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565530D1EE64E9E004DA80E /* SMS_SDK.framework */; };
+		156553141EE651C0004DA80E /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156553131EE651C0004DA80E /* MOBFoundationEx.framework */; };
+		156553161EE651CB004DA80E /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156553151EE651CB004DA80E /* MOBFoundation.framework */; };
+		156553181EE658A1004DA80E /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156553171EE658A1004DA80E /* SMS_SDK.framework */; };
 		15E91B0D1EE5403900195498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B0C1EE5403900195498 /* main.m */; };
 		15E91B101EE5403900195498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B0F1EE5403900195498 /* AppDelegate.m */; };
 		15E91B131EE5403900195498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E91B121EE5403900195498 /* ViewController.m */; };
@@ -46,9 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1565530B1EE64E9E004DA80E /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
-		1565530C1EE64E9E004DA80E /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
-		1565530D1EE64E9E004DA80E /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		156553131EE651C0004DA80E /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundationEx.framework; path = CocoapodsTest/Classes/SMS_SDK/MOBFoundationEx.framework; sourceTree = "<group>"; };
+		156553151EE651CB004DA80E /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundation.framework; path = CocoapodsTest/Classes/SMS_SDK/MOBFoundation.framework; sourceTree = "<group>"; };
+		156553171EE658A1004DA80E /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
 		15E91B081EE5403900195498 /* CocoapodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E91B0C1EE5403900195498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15E91B0E1EE5403900195498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,15 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156553181EE658A1004DA80E /* SMS_SDK.framework in Frameworks */,
+				156553161EE651CB004DA80E /* MOBFoundation.framework in Frameworks */,
+				156553141EE651C0004DA80E /* MOBFoundationEx.framework in Frameworks */,
 				15E924001EE5A39300195498 /* libstdc++.tbd in Frameworks */,
 				15E923FE1EE5A38900195498 /* JavaScriptCore.framework in Frameworks */,
 				15E923FC1EE5A38400195498 /* MessageUI.framework in Frameworks */,
-				156553101EE64E9E004DA80E /* SMS_SDK.framework in Frameworks */,
 				15E923FA1EE5A37C00195498 /* libicucore.tbd in Frameworks */,
 				15E923F81EE5A37500195498 /* libz.tbd in Frameworks */,
 				15E91B4A1EE5541500195498 /* CoreText.framework in Frameworks */,
-				1565530E1EE64E9E004DA80E /* MOBFoundation.framework in Frameworks */,
-				1565530F1EE64E9E004DA80E /* MOBFoundationEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,16 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1565530A1EE64E9E004DA80E /* SMS_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				1565530B1EE64E9E004DA80E /* MOBFoundation.framework */,
-				1565530C1EE64E9E004DA80E /* MOBFoundationEx.framework */,
-				1565530D1EE64E9E004DA80E /* SMS_SDK.framework */,
-			);
-			path = SMS_SDK;
-			sourceTree = "<group>";
-		};
 		15E91AFF1EE5403900195498 = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +178,6 @@
 		15E91B3E1EE5413500195498 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1565530A1EE64E9E004DA80E /* SMS_SDK */,
 				15E91B421EE54C0600195498 /* Category */,
 				15E91B3F1EE5417500195498 /* NSFileManager+TTFileManager.h */,
 				15E91B401EE5417500195498 /* NSFileManager+TTFileManager.m */,
@@ -208,6 +197,9 @@
 		15E91B481EE5541500195498 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				156553171EE658A1004DA80E /* SMS_SDK.framework */,
+				156553151EE651CB004DA80E /* MOBFoundation.framework */,
+				156553131EE651C0004DA80E /* MOBFoundationEx.framework */,
 				15E923FF1EE5A39300195498 /* libstdc++.tbd */,
 				15E923FD1EE5A38900195498 /* JavaScriptCore.framework */,
 				15E923FB1EE5A38400195498 /* MessageUI.framework */,
@@ -509,8 +501,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CocoapodsTest/Classes/SMS_SDK",
-					"$(PROJECT_DIR)/SMS_SDK",
-					"$(PROJECT_DIR)/CocoapodsTest/SMS_SDK",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CocoapodsTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -527,8 +518,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CocoapodsTest/Classes/SMS_SDK",
-					"$(PROJECT_DIR)/SMS_SDK",
-					"$(PROJECT_DIR)/CocoapodsTest/SMS_SDK",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CocoapodsTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
