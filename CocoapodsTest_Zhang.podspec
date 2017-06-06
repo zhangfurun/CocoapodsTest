@@ -24,8 +24,8 @@ s.libraries = 'z','icucore','stdc++','c++'
 
 s.frameworks = 'CFNetwork','Foundation','UIKit','MessageUI','JavaScriptCore'
 
-s.vendored_frameworks = 'CocoapodsTest/Classes/SMS_SDK/SMS_SDK.framework'
+s.ios.vendored_frameworks = 'CocoapodsTest/Classes/SMS_SDK/*.{framework}'
 #,'CocoapodsTest/Classes/SMS_SDK/MOBFoundation.framework','CocoapodsTest/Classes/SMS_SDK/MOBFoundationEx.framework'
-#s.requires_arc = true
+s.requires_arc = true
 
 end
